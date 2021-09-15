@@ -1,0 +1,26 @@
+{
+    "version": "2.2.1",
+    "architecture": {
+        "32bit": {
+            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.1/stskeygen_2.2.1_Windows_i386.tar.gz",
+            "bin": [
+                "stskeygen.exe"
+            ],
+            "hash": "c567bd50c82e8829d2f04a7659539310d80709a8a6685877e6c62e4023fafa50"
+        },
+        "64bit": {
+            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.1/stskeygen_2.2.1_Windows_x86_64.tar.gz",
+            "bin": [
+                "stskeygen.exe"
+            ],
+            "hash": "35fbe84035341c8970c68f39a91393b4f2796cf9add570bd10daa44da0d7b519"
+        }
+    },
+    "homepage": "https://support.cimpress.cloud/hc/en-us/articles/227873908",
+    "license": "MIT",
+    "description": "A commandline utility for trading directory service credentials (such as AD username and password) for AWS STS Keys.",
+    "persist": [
+        "data",
+        "config.toml"
+    ]
+}
