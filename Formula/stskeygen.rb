@@ -5,29 +5,29 @@
 class Stskeygen < Formula
   desc "A commandline utility for trading directory service credentials (such as AD username and password) for AWS STS Keys."
   homepage "https://support.cimpress.cloud/hc/en-us/articles/227873908"
-  version "2.2.3"
+  version "2.2.4"
   license "MIT"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.3/stskeygen_2.2.3_Darwin_x86_64.tar.gz"
-      sha256 "34097cf4bb46fecac51daa5a57d48af2c70e2c1edd77c8a11cad639ff03ed26e"
+      url "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.4/stskeygen_2.2.4_Darwin_x86_64.tar.gz"
+      sha256 "e5b1443fdccff8a2ab11b3d6a4bfd19bd26cede2a85c3473f6884eaff4342b66"
     end
     if Hardware::CPU.arm?
-      url "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.3/stskeygen_2.2.3_Darwin_arm64.tar.gz"
-      sha256 "6dc80c63d33df7f370dec130fbdb291a96574d35d29a53345717348bc892996b"
+      url "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.4/stskeygen_2.2.4_Darwin_arm64.tar.gz"
+      sha256 "c86c5e8e327aad338fdcbaa5df1df6767f995f284d913b79dce1e4e4a5838549"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.3/stskeygen_2.2.3_Linux_x86_64.tar.gz"
-      sha256 "10e735ebfa83f3a73e4d43dc3310e6b21f767219bf0b96b6112ab6fa98eb32ea"
+      url "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.4/stskeygen_2.2.4_Linux_x86_64.tar.gz"
+      sha256 "73cb67a0c8ab72d559dad68b8d7faa36b3d481ec70e657790374969d3124b885"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.3/stskeygen_2.2.3_Linux_arm64.tar.gz"
-      sha256 "1ce75c93d6aae2fda9475f73b4ab67317b0698c65a6b6a7578844d729063d3e7"
+      url "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.4/stskeygen_2.2.4_Linux_arm64.tar.gz"
+      sha256 "d8e7066a466cecdd879f767274b3f0663df4a8b9337982892bcbd66896d6dda1"
     end
   end
 
