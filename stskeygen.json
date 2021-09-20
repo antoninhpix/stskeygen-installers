@@ -1,19 +1,19 @@
 {
-    "version": "2.2.3",
+    "version": "2.2.4",
     "architecture": {
         "32bit": {
-            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.3/stskeygen_2.2.3_Windows_i386.tar.gz",
+            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.4/stskeygen_2.2.4_Windows_i386.tar.gz",
             "bin": [
                 "stskeygen.exe"
             ],
-            "hash": "ec1c6c42db5f3057826a80348b707332c9e5dfe17d2f878ac157dd47fe3605b5"
+            "hash": "5048e127f76c1a0a78b5f905bfddc947f6411a6a03ae8d363d3bb154c68f62d9"
         },
         "64bit": {
-            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.3/stskeygen_2.2.3_Windows_x86_64.tar.gz",
+            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.4/stskeygen_2.2.4_Windows_x86_64.tar.gz",
             "bin": [
                 "stskeygen.exe"
             ],
-            "hash": "519206bbbecae7aa8ab9412d6009e3f89d1e5a7bf6eaae59b475751f07b0f7c0"
+            "hash": "7386cdc3c8c37de6d3277ed44ea138d0d63663262596b96a9ecb8e14e2b2622e"
         }
     },
     "homepage": "https://support.cimpress.cloud/hc/en-us/articles/227873908",
