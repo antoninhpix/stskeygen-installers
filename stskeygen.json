@@ -1,22 +1,22 @@
 {
-    "version": "2.2.8",
+    "version": "2.2.9",
     "architecture": {
         "32bit": {
-            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.8/stskeygen_2.2.8_Windows_i386.tar.gz",
+            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.9/stskeygen_2.2.9_Windows_i386.tar.gz",
             "bin": [
                 "stskeygen.exe"
             ],
-            "hash": "df099f414253e5ddc5db125ac745814cf8cae533e8141857f706632bb4996056"
+            "hash": "776fa7f6deaea8df4ec923b84f5a787ca916e0c1c80ddc6dfafdc817c91a966f"
         },
         "64bit": {
-            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.8/stskeygen_2.2.8_Windows_x86_64.tar.gz",
+            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.9/stskeygen_2.2.9_Windows_x86_64.tar.gz",
             "bin": [
                 "stskeygen.exe"
             ],
-            "hash": "90d6e844d40245ef4f746bc448ce5d88393a757d95c2ea722f743789f5ae52f8"
+            "hash": "6b9f40268ca64c1bb7d00d2030d8f26297daf68555e0495cb506c7a67d6bbf27"
         }
     },
-    "homepage": "https://support.cimpress.cloud/hc/en-us/articles/227873908",
+    "homepage": "https://cimpress-support.atlassian.net/wiki/spaces/CloudKB/pages/15058567646/Generating+STS+access+keys+via+Auth0",
     "license": "MIT",
     "description": "A commandline utility for trading directory service credentials (such as AD username and password) for AWS STS Keys.",
     "persist": [
