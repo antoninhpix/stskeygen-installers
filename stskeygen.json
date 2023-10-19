@@ -1,26 +1,26 @@
 {
-    "version": "2.2.16",
+    "version": "2.2.17",
     "architecture": {
         "32bit": {
-            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.16/stskeygen_2.2.16_windows_386.tar.gz",
+            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.17/stskeygen_2.2.17_windows_386.tar.gz",
             "bin": [
                 "stskeygen.exe"
             ],
-            "hash": "e1076c9ab9a0abd1889fb756cee4fde1a221e869460d743ee606278dc9ced3af"
+            "hash": "ada1c50dc3c657da7ea33cfcfe83154473c18c9141d81aaf8a5f77b7e0652766"
         },
         "64bit": {
-            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.16/stskeygen_2.2.16_windows_amd64.tar.gz",
+            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.17/stskeygen_2.2.17_windows_amd64.tar.gz",
             "bin": [
                 "stskeygen.exe"
             ],
-            "hash": "a2755adfa85474609da20ff0264b4efd82e918004d84987d84b6f0154d1a934e"
+            "hash": "8cc91ebf9006ec8e678ce688c86db8e38d8507a1b2ad7398384aa9938f02a0e9"
         },
         "arm64": {
-            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.16/stskeygen_2.2.16_windows_arm64.tar.gz",
+            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/2.2.17/stskeygen_2.2.17_windows_arm64.tar.gz",
             "bin": [
                 "stskeygen.exe"
             ],
-            "hash": "c74334f51285e0f45d2c260b7b93b1cd04118a1cf292beb8232319fe1c62c9bb"
+            "hash": "ca9916b28422b445f0abbf01389fdf54aca8a9858992b58969b12d4b47181fda"
         }
     },
     "homepage": "https://cimpress-support.atlassian.net/wiki/spaces/CloudKB/pages/15058567646/Generating+STS+access+keys+via+Auth0",
