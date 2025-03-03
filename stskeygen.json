@@ -1,19 +1,19 @@
 {
-    "version": "3.0.2",
+    "version": "3.1.0",
     "architecture": {
         "64bit": {
-            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/3.0.2/stskeygen_3.0.2_windows_amd64.tar.gz",
+            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/3.1.0/stskeygen_3.1.0_windows_amd64.tar.gz",
             "bin": [
                 "stskeygen.exe"
             ],
-            "hash": "c60a8f300400e28a6908b302ae0a6d34ee3d186fa5bdc7fda99f08e09c5d81a1"
+            "hash": "c69224d4b81b624667ceadb21bfdb051074124e861b4b8f58a32df8511bd2afb"
         },
         "arm64": {
-            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/3.0.2/stskeygen_3.0.2_windows_arm64.tar.gz",
+            "url": "https://ce-installation-binaries.s3.us-east-1.amazonaws.com/stskeygen/3.1.0/stskeygen_3.1.0_windows_arm64.tar.gz",
             "bin": [
                 "stskeygen.exe"
             ],
-            "hash": "a400dad0e1c7657c1b0f5440f0cee9eaca75913dcfb03af58e842e9a250411dc"
+            "hash": "384f9eab4397fdb69f4ccb96c1794b5bd024ea9828431d9c7084970376e4dd44"
         }
     },
     "homepage": "https://cimpress-support.atlassian.net/wiki/spaces/CloudKB/pages/15058567646/Generating+STS+access+keys+via+Auth0",
